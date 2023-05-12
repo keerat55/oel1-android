@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewActivity">
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Travel with us!!"
+        android:textSize="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+
+    <Button
+        android:id="@+id/buttonplan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginRight="50dp"
+        android:text="Plan a trip" />
+
+    <Button
+        android:id="@+id/buttonearn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginRight="50dp"
+        android:text="Earn while travel" />
+
+    <Button
+        android:id="@+id/buttontrack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="276dp"
+        android:layout_marginRight="50dp"
+        android:text="Transportation Tracking" />
+
+    <Button
+        android:id="@+id/buttoncost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="368dp"
+        android:layout_marginRight="50dp"
+        android:text="Save your cost" />
+
+    <Button
+        android:id="@+id/buttonlink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="457dp"
+        android:layout_marginRight="50dp"
+        android:text="Sync with other apps" />
+
+</RelativeLayout>

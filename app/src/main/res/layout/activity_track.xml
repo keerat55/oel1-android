@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".trackActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Track your transport request"
+        android:textSize="24dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User is on its way to Karachi!!"
+        android:textSize="24dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Details"
+        android:textSize="24dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name: User"
+        android:textSize="24dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Destination: Karachi"
+        android:textSize="24dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type: Bus"
+        android:textSize="24dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+</RelativeLayout>

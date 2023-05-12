@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".costActivity">
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Save your costs with Available Offers!!"
+      android:textSize="24dp"
+      android:layout_marginTop="50dp"
+      android:layout_marginLeft="50dp"
+      android:layout_marginRight="50dp"
+      />
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Available Coupons"
+      android:textSize="34dp"
+      android:layout_marginTop="150dp"
+      android:layout_marginLeft="50dp"
+      android:layout_marginRight="50dp"
+      />
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="No Available Coupons!!"
+      android:textSize="24dp"
+      android:layout_marginTop="200dp"
+      android:layout_marginLeft="50dp"
+      android:layout_marginRight="50dp"
+      />
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Available Discounts"
+      android:textSize="32dp"
+      android:layout_marginTop="270dp"
+      android:layout_marginLeft="50dp"
+      android:layout_marginRight="50dp"
+      />
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="No Available discounts!!"
+      android:textSize="24dp"
+      android:layout_marginTop="310dp"
+      android:layout_marginLeft="50dp"
+      android:layout_marginRight="50dp"
+      />
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Avail Promo Code"
+      android:textSize="34dp"
+      android:layout_marginTop="390dp"
+      android:layout_marginLeft="50dp"
+      android:layout_marginRight="50dp"
+      />
+  <TextView
+      android:id="@+id/promo"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Promo Code: oel1"
+      android:textSize="24dp"
+      android:layout_marginTop="430dp"
+      android:layout_marginLeft="50dp"
+      android:layout_marginRight="50dp"
+      />
+  <Button
+      android:id="@+id/buttonLogin"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Avail now!"
+      android:layout_marginTop="70dp"
+      android:layout_marginLeft="50dp"
+      android:layout_marginRight="50dp"
+      android:layout_below="@+id/promo"/>
+  </RelativeLayout>
